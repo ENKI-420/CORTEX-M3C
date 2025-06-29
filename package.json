@@ -1,0 +1,23 @@
+{
+  "name": "cortex-m3c",
+  "version": "1.0.0",
+  "description": "Collaborative Orchestration of Real-Time Expert eXchange — Multi-Model, Multi-Modal, Collaborative Conference",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  }
+}
